@@ -39,8 +39,56 @@
             </article>
             <article>
                 <h4>Resolución:</h4>
+                <!--Resolución ejercicio 3-->
                 <div class="content_resultado">
+                    <form>
+                        <fieldset class="">
+                            <legend>Datos Alumno</legend>
+                            <div class="form_datos">
+                                <label for="nombre">Nombre: </label> <!--Nombre-->
+                                <input type="text" id="nombre" name="user_name" placeholder="Escribe tu nombre" required><br>
+                            </div>
 
+                            <div class="form_datos">
+                                <label for="apellido">Apellidos:</label> <!--Apellido-->
+                                <input type="text" id="apellido" name="user_surname" placeholder="Escribe tu apellido" required><br></div>
+
+                            <div class="form_datos">
+                                <label for="correo">Email:</label> <!--Email-->
+                                <input type="email" id="correo" name="user_email" placeholder="Escribe tu email" required><br>
+                            </div>
+
+                            <div class="form_datos">
+                                <label for="edad">Edad:</label> <!--Edad-->
+                                <input type="number" id="edad" name="user_age" placeholder="Seleciona tu edad" required min="16"><br>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Curso</legend>    
+                            <label for="">Curso:</label> <!--Selector curso-->
+                                <select name="curso" id="curso">
+                                    <option value="">Lenguaje de Marcas</option>
+                                    <option value="">Sistemas Informáticos</option>
+                                    <option value="">Programación</option>
+                                    <option value="">Entornos de Desarrollo</option>
+                                    <option value="">Bases de datos</option>
+                                    <option value="">Optativa: Python</option>
+                                </select>
+                        
+                        <legend>Horario:</legend> <!--Horario radio-->
+                            <label><input type="radio" name="radio" value="mañana" />Mañana</label>
+                            <label><input type="radio" name="radio" value="tarde" />Tarde</label>
+                            <label><input type="radio" name="radio" value="noche" />Noche</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Condiciones:</legend>
+                            <label><input type="checkbox" name="box" value="terms" />Acepto las condiciones. </label>    
+                        </fieldset>    
+                        <input type="submit"> <!--Botón enviar-->
+                    </form>
                 </div>
             </article>
         </section>
