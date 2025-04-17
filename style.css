@@ -41,6 +41,7 @@ aside a{
 }
 footer{
     background-color: rgb(212, 229, 229);
+    color: rgb(45, 74, 99);
     padding:5px;
     font-size: small;
     text-align: center;
@@ -92,4 +93,20 @@ input[type="submit"]{
     border: 0;
 }
 
+/*Ejercicio 2*/
+dd{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+dd a{
+    color:indianred;
+}
+dd code{
+    background-color:rgba(209, 205, 205, 0.327);
+    color:rgb(17, 179, 182);
+    font-size: small;
+}
+dt{
+    color: indianred;
+    text-decoration: underline;
+}
 
