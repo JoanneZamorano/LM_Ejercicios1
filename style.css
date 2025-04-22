@@ -1,12 +1,29 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+main{
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: center;
+    text-align: justify;
+    background-color: #e4f0f557;
+}
 code{
     font-family:'Courier New', Courier, monospace;
     font-size: medium;
     font-weight: 600;
     color: rgb(98, 126, 180);
 }
+header h1, header h2{
+    line-height: 10px;
+}
+.content_header{
+    padding: 1px;
+    background-color: rgba(212, 229, 229, 0.406);
+    border-bottom: solid 3px #2c5e77;
+    border-radius: 20px;
+}
+
 h1, h2{
     text-align: center;
 }
@@ -62,6 +79,7 @@ thead {
     border-bottom: 2px solid rgb(160 160 160);
     background-color: #2c5e77;
     color: #fff;
+    text-align: center;
 }
 tbody {
     background-color: #e4f0f5;
@@ -107,6 +125,6 @@ dd code{
 }
 dt{
     color: indianred;
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 
